@@ -24,9 +24,3 @@ export default function Navbar(){
         </nav>
     )
 }
-
-/*
-<nav style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
-      <h1>My Portfolio</h1>
-    </nav>
-*/
