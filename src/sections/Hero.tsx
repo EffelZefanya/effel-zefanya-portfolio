@@ -1,6 +1,6 @@
 export default function Hero(){
     return(
-        <section className="flex flex-col items-center justify-center text-center py-20">
+        <section id="hero" className="flex flex-col items-center justify-center text-center py-20">
             <h2 className="text-4xl font-bold mb-4">Hello, I'm Effel 👋</h2>
             <p className="text-lg text-gray-600 max-w-xl">
                 Aspiring Software Engineer | Java
