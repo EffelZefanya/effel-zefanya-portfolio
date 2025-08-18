@@ -4,9 +4,21 @@ export default function Navbar(){
             <div className="max-w-4xl mx-auto px-4 py-3 flex item-center justify-between">
                 <h1 className="text-xl font-bold text-blue-600">My Portfolio</h1>
                 <ul className="flex gap-6 text-gray-600">
-                    <li className="hover:text-blue-600 cursor-pointer">About</li>
-                    <li className="hover:text-blue-600 cursor-pointer">Projects</li>
-                    <li className="hover:text-blue-600 cursor-pointer">Contact</li>
+                    <li>
+                        <a href="#about" className="hover:text-blue-600 cursor-pointer">
+                        About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" className="hover:text-blue-600 cursor-pointer">
+                        Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" className="hover:text-blue-600 cursor-pointer">
+                        Contact
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
