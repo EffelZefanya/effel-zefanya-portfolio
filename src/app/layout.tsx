@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import React from "react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Effel Zefanya Portfolio",
@@ -18,8 +19,8 @@ export default function RootLayout({
       <body className="bg-gray-50 text-gray-900 font-sans">
         <Navbar />
         <main className="max-w-4xl mx-auto px-4">{children}</main>
+        <Footer />
       </body>
-
     </html>
   )
 }
