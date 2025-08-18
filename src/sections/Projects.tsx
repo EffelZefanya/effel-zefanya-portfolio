@@ -11,7 +11,7 @@ export default function Projects(){
         {
             title: "Next.js Portfolio",
             description:"This very website! Built with Next.js, Typescript, and Tailwind CSS to showcase my projects and skills.",
-            link:"#",
+            link:"https://github.com/EffelZefanya/effel-zefanya-portfolio",
         }
     ];
 
