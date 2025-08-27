@@ -12,7 +12,12 @@ export default function Projects(){
             title: "Next.js Portfolio",
             description:"This very website! Built with Next.js, Typescript, and Tailwind CSS to showcase my projects and skills.",
             link:"https://github.com/EffelZefanya/effel-zefanya-portfolio",
-        }
+        },
+        {
+            title: "Expressjs Blog Back End (On Going)",
+            description:"Building a back end for a blog using expressJS, NodeJS, and testing using Jest.",
+            link:"https://github.com/EffelZefanya/blog-back-end",
+        },
     ];
 
     return (
