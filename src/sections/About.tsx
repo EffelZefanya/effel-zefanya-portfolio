@@ -14,12 +14,12 @@ export default function About() {
 
       <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-md mx-auto text-gray-700">
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">Java / Spring Boot</span>
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">GoLang</span>
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">Next.js</span>
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">React</span>
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">TypeScript</span>
-        <span className="bg-gray-100 py-2 px-4 rounded-lg">SQL / PostgreSQL</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">Java / Spring Boot</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">GoLang</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">Next.js</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">React</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">TypeScript</span>
+        <span className="bg-gray-100 py-2 px-4 rounded-lg flex items-center justify-center">SQL / PostgreSQL</span>
       </div>
     </section>
   );

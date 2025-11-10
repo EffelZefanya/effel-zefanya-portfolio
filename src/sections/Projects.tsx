@@ -14,9 +14,9 @@ export default function Projects(){
             link:"https://github.com/EffelZefanya/effel-zefanya-portfolio",
         },
         {
-            title: "Expressjs Blog Back End (On Going)",
-            description:"Building a back end for a blog using expressJS, NodeJS, and testing using Jest.",
-            link:"https://github.com/EffelZefanya/blog-back-end",
+            title: "Game Nexus",
+            description:"Building a full stack website using html+css+js+tailwind for the front-end. While utilizing expressjs for the back-end. The back end handles CRUD for user log in and register, also for contact form submission.",
+            link:"https://github.com/EffelZefanya/Game-Nexus",
         },
     ];
 
