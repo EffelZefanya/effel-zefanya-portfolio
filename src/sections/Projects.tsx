@@ -18,6 +18,11 @@ export default function Projects(){
             description:"Building a full stack website using html+css+js+tailwind for the front-end. While utilizing expressjs for the back-end. The back end handles CRUD for user log in and register, also for contact form submission.",
             link:"https://github.com/EffelZefanya/Game-Nexus",
         },
+        {
+            title: "Websocket Learning",
+            description:"A project to learn websocket and redis. The chat is stored inside redis so it can be pulled",
+            link:"https://github.com/EffelZefanya/Websocket-Learning-Go",
+        },
     ];
 
     return (
