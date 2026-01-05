@@ -20,9 +20,14 @@ export default function Projects(){
         },
         {
             title: "Websocket Learning",
-            description:"A project to learn websocket and redis. The chat is stored inside redis so it can be pulled",
+            description:"A project to learn websocket and redis. The chat is stored inside redis through a pub/sub pattern so all user access the chat message from redis.",
             link:"https://github.com/EffelZefanya/Websocket-Learning-Go",
         },
+        {
+            title: "Simple Microservice Learning",
+            description: "A project to learn microservice. REST API is used as gateway for all requests, while other services uses GRPC as their architecture.",
+            link: "https://github.com/EffelZefanya/simple-microservice-practice"
+        }
     ];
 
     return (
