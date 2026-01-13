@@ -27,6 +27,14 @@ export default function Projects(){
             title: "Simple Microservice Learning",
             description: "A project to learn microservice. REST API is used as gateway for all requests, while other services uses GRPC as their architecture.",
             link: "https://github.com/EffelZefanya/simple-microservice-practice"
+        }, {
+            title: "Cool Games",
+            description: "A digital game marketplace backend built with Go and PostgreSQL. This project utilizes Clean Architecture (Hexagonal Architecture) to maintain a strict separation between business logic, delivery mechanisms, and data persistence.",
+            link: "https://github.com/EffelZefanya/cool_games"
+        }, {
+            title: "Rent and Read",
+            description: "A robust Go-based backend for a physical book rental system. This project features a virtual wallet system, real-time stock management, and Xendit payment gateway integration.",
+            link: "github.com/EffelShuban/RentAndRead"
         }
     ];
 
